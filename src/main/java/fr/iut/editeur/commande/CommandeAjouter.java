@@ -20,4 +20,6 @@ public class CommandeAjouter extends CommandeDocument {
         super.executer();
     }
 
+    public static class CommandeRemplacer {
+    }
 }
