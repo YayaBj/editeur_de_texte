@@ -19,7 +19,4 @@ public class CommandeAjouter extends CommandeDocument {
         this.document.ajouter(texte);
         super.executer();
     }
-
-    public static class CommandeRemplacer {
-    }
 }
