@@ -39,6 +39,12 @@ public class Document {
         texte = "";
     }
 
+    public void inserer(int debut, String chaine) {
+        String partieGauche = texte.substring(0, debut);
+        String partieDroite = texte.substring(debut);
+        texte = partieGauche + chaine + partieDroite;
+    }
+
     @Override
     public String toString() {
         return this.texte;
