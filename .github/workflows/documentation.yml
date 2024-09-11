@@ -22,10 +22,10 @@ jobs:
           java-version: '17'
 
       - name: Install dependencies
-        run: ./mvnw install
+        run: ./mvn install
 
       - name: Generate Javadoc
-        run: ./mvnw javadoc:javadoc
+        run: ./mvn javadoc:javadoc
 
       - name: Deploy Javadoc to gh-pages
         uses: peaceiris/actions-gh-pages@v4

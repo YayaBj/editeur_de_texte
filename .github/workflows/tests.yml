@@ -18,7 +18,7 @@ jobs:
           distribution: 'oracle'
 
       - name: Install dependencies
-        run: ./mvnw install
+        run: ./mvn install
 
       - name: Run Unit Tests
-        run: ./mvnw test
+        run: ./mvn test
