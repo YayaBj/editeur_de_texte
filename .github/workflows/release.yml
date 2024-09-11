@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - '*'
+      - '*' # Listen to all tags
 
 jobs:
   release:
